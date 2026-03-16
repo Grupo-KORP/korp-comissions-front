@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 <body>
     <header>
         <p>TESTE DE LOGIN</p>
+        <a href="cadastro.html">CADASTRE-SE</a>
     </header>
     <main>
         <div id="modal">
             <h1>ENTRAR</h1>
             <p>E-mail:</p>
-            <input type="text">
+            <input id="iptEmail" type="text">
             <p>Senha:</p>
-            <input type="text">
-            <button>ENTRAR</button>
+            <input id="iptSenha" type="password">
+            <button onclick="entrar()">ENTRAR</button>
         </div>
     </main>
     <footer></footer>
 </body>
 </html>
+<script src="app.js"></script>

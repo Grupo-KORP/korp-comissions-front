@@ -23,6 +23,12 @@ header {
     color: white;
 }
 
+header div {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
 header p {
     font-weight: 500;
 }
